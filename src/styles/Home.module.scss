@@ -1,0 +1,120 @@
+.main {
+    height: 100vh;
+    display: flex;
+    padding: 0 3.125rem;
+    img {
+        width: 561px;
+        height: 500px;
+    }
+
+    .heroText {
+        margin-left: 5rem;
+        background: var(--white-light);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        padding: 0 2rem;
+
+        h2 {
+            font-size: 2.25rem;
+            margin-bottom: 24px;
+        }
+
+        p {
+            font-size: 1.5rem;
+            line-height: 42px;
+            margin-bottom: calc(15%);
+        }
+    }
+}
+
+.services {
+    padding: 0 3.125rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 150px;
+}
+
+.socialProve {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4.5rem;
+    margin-bottom: 2rem;
+    h2 {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 146.2%;
+    }
+
+    p {
+        font-size: 24px;
+        line-height: 176%;
+        max-width: 800px;
+    }
+}
+
+.gallery {
+    background: var(--white-light);
+    max-height: 283px;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 146.2%;
+    }
+    .photos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        gap: 3.4375rem;
+        img {
+            width: 271.7px;
+            height: 241.6px;
+        }
+    }
+}
+
+.footer {
+    padding: 3rem 3.125rem 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .navigation {
+        ul {
+            display: flex;
+            align-items: center;
+            li + li {
+                margin-left: 3rem;
+            }
+
+            li a {
+                font-weight: 600;
+                font-size: 1.5rem;
+                line-height: 146.2%;
+                transition: filter 0.2s ease-in-out;
+                &:hover {
+                    filter: opacity(0.5)
+                }
+            }
+
+            li .icons {
+                margin-left: 119px;
+                display: flex;
+                gap: 1rem;
+            }
+        }
+    }
+    p {
+        font-weight: 600;
+        font-size: 1.125rem;
+        line-height: 146.2%;
+    }
+}

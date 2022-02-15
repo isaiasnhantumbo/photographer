@@ -1,0 +1,39 @@
+.container {
+    height: 500px;
+    background: var(--white-light);
+    position: relative;
+    padding: 4rem 8rem;
+    img {
+        position: absolute;
+        top: -50px;
+        height: 600px;
+        right: 30%;
+    }
+    .form {
+        position: relative;
+        background: #fffafa;
+        height: 350px;
+        width: 480px;
+        padding: 1.125rem 2rem;
+
+        h4 {
+            margin-top: 2rem;
+            font-weight: 600;
+            font-size: 2.25rem;
+            margin-bottom: 54px;
+        }
+        p {
+            font-size: 1.5rem;
+            line-height: 146.2%;
+            margin-bottom: 18px;
+        }
+    }
+    .formPhoto {
+        position: absolute;
+        right: 180px;
+        bottom: 380px;
+        img {
+            height: 380px;
+        }
+    }
+}

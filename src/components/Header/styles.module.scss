@@ -1,0 +1,44 @@
+.container {
+    padding: 0 2rem;
+    background: var(--white-light);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+    height: 100px;
+    margin-bottom: 2rem;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.navigation {
+    ul {
+        display: flex;
+        align-items: center;
+        li + li {
+            margin-left: 3.625rem;
+        }
+
+        li p {
+            font-weight: bold;
+            font-size: 1.625rem;
+            letter-spacing: 0.245em;
+            word-wrap: unset;
+        }
+
+        li a {
+            font-weight: 600;
+            font-size: 1.5rem;
+            line-height: 146.2%;
+            transition: filter 0.5s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+            &:hover {
+                filter: opacity(0.5)
+            }
+        }
+    }
+}
